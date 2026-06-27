@@ -1,0 +1,11 @@
+# Copy to terraform.tfvars and fill in
+my_ip_cidr     = "122.161.75.225/32"   # apna public IP (what-is-my-ip)
+key_name       = "rancher"             # existing EC2 key pair
+dc_bucket_name = "myorg-pgbackrest-dc-2026"   # globally unique
+dr_bucket_name = "myorg-pgbackrest-dr-2026"   # globally unique
+
+# optional overrides
+# dc_region     = "us-east-1"
+# dr_region     = "us-west-2"
+# instance_type = "t3.large"
+# dc_node_count = 3

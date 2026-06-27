@@ -1,0 +1,14 @@
+# Terraform state (contains secrets)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Secrets / credentials
+terraform.tfvars
+*.pem
+*-cluster.yaml
+kubeconfig*
+
+# OS
+.DS_Store
